@@ -1,11 +1,24 @@
-﻿@model Model
-@{
-    ViewData["Title"] = "Detail";
-}
+﻿@model List<Model>
 
-<h1>Model Detail</h1>
 
-<h3>Id: @Model.Id</h3>
-<h3>Name: @Model.Name </h3>
-<h3>Cost: @Model.Cost</h3>
+<h1>Models</h1>
+
+<div class="list-brand">
+    <ul class="list-brand">
+        @foreach (Model modelll in Model)
+        {
+            <li class="list-brand">
+                Id: @modelll.Id
+            </li>
+            <li class="list-brand">
+                Name: @modelll.Name
+            </li>
+            <li class="list-brand">
+                Cost: @modelll.Cost
+            </li>
+        }
+    </ul>
+</div>
+
+
 

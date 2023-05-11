@@ -9,5 +9,6 @@
         public string Cost { get; set; }
 
         public int BrandId { get; set; }
+        public Brand brand { get; set; }
     }
 }
