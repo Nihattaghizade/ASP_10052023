@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\99450\\source\\repos\\CarRelation\\CarRelation\\CarRelation.csproj": {}
+    "C:\\Users\\99450\\OneDrive\\Masaüstü\\ASP_10052023\\CarRelation\\CarRelation\\CarRelation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\99450\\source\\repos\\CarRelation\\CarRelation\\CarRelation.csproj": {
+    "C:\\Users\\99450\\OneDrive\\Masaüstü\\ASP_10052023\\CarRelation\\CarRelation\\CarRelation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\99450\\source\\repos\\CarRelation\\CarRelation\\CarRelation.csproj",
+        "projectUniqueName": "C:\\Users\\99450\\OneDrive\\Masaüstü\\ASP_10052023\\CarRelation\\CarRelation\\CarRelation.csproj",
         "projectName": "CarRelation",
-        "projectPath": "C:\\Users\\99450\\source\\repos\\CarRelation\\CarRelation\\CarRelation.csproj",
+        "projectPath": "C:\\Users\\99450\\OneDrive\\Masaüstü\\ASP_10052023\\CarRelation\\CarRelation\\CarRelation.csproj",
         "packagesPath": "C:\\Users\\99450\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\99450\\source\\repos\\CarRelation\\CarRelation\\obj\\",
+        "outputPath": "C:\\Users\\99450\\OneDrive\\Masaüstü\\ASP_10052023\\CarRelation\\CarRelation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\99450\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,20 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.13, )"
